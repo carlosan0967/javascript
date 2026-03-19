@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  margin: 15px 0;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bfc;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+/* Botón Ver Local Storage */
+.btn-historial {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn-historial:hover {
+  background-color: #1e7e34;
+}
+
+/* Sección de resultado del usuario registrado */
+#resultado {
+  margin-top: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+
+.total-guardados {
+  color: #28a745;
+  font-weight: bold;
+}
+
+/* Panel del historial */
+#historialPanel {
+  margin-top: 30px;
+  max-width: 700px;
+}
+
+#historialPanel h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Tabla del historial */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+
+thead {
+  background-color: #007bfc;
+  color: white;
+}
+
+thead th {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+tbody td {
+  padding: 10px 15px;
+  color: #444;
+}
+
+tbody tr:hover {
+  background-color: #f0f7ff;
+}
+
+/* Botón limpiar historial */
+.btn-limpiar {
+  margin-top: 15px;
+  padding: 8px 18px;
+  border: none;
+  background-color: #dc3545;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-limpiar:hover {
+  background-color: #b02a37;
+}
+
+/* Mensaje sin datos */
+.sin-datos {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: #888;
+  font-style: italic;
+}

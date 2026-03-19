@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Registro de Usuario</h1>
+
+    <form id="formulario">
+      <label>Nombre: <input type="text" id="nombre" required /></label>
+      <label>Edad: <input type="number" id="edad" required /></label>
+      <label>Ciudad: <input type="text" id="ciudad" required /></label>
+      <button type="submit">Guardar</button>
+    </form>
+
+    <!-- Botón para ver el historial del localStorage -->
+    <button id="btnHistorial" class="btn-historial">📦 Ver Local Storage</button>
+
+    <div id="resultado"></div>
+
+    <!-- Panel donde se mostrará el historial -->
+    <div id="historialPanel"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
